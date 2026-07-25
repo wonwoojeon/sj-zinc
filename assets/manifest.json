@@ -1,0 +1,64 @@
+{
+  "project": "SJ징크지붕공사 웹사이트 이미지 자산",
+  "source": "네이버 블로그 blog.naver.com/sjzincroofcovering 실제 시공 사진 (원본 blogfiles.pstatic.net)",
+  "collected": "2026-07-21",
+  "hero_picks": ["hero-zinc-roof-01.jpg", "hero-zinc-roof-02.jpg", "hero-zinc-roof-03.jpg"],
+  "before_after_pairs": [
+    {
+      "pair": 1,
+      "title": "노후주택 철거 → 징크 리모델링",
+      "before": ["works-remodel-before-01.jpg", "works-remodel-before-02.jpg"],
+      "after": ["works-remodel-after-01.jpg", "works-remodel-after-02.jpg"]
+    },
+    {
+      "pair": 2,
+      "title": "합판 마감 누수 벽체 → 징크 벽체 + 두겁",
+      "before": ["works-wall-dugeop-before-01.jpg"],
+      "after": ["works-wall-dugeop-after-01.jpg"]
+    }
+  ],
+  "images": [
+    { "file": "hero-zinc-roof-01.jpg", "category": "hero", "desc": "노후주택 리모델링 후 브라운 징크 지붕·벽체 완성 전경 (가로형, 웜톤 — 메인 히어로 추천)", "size": "900x600" },
+    { "file": "hero-zinc-roof-02.jpg", "category": "hero", "desc": "사선 징크 외장 시공 완성 — 다크블루 세로·사선 스탠딩심 파사드 (가로형)", "size": "900x676" },
+    { "file": "hero-zinc-roof-03.jpg", "category": "hero", "desc": "옥상 징크 지붕 전체 교체 후 다크그레이 스탠딩심 모서리 디테일 (가로형)", "size": "900x600" },
+
+    { "file": "works-remodel-before-01.jpg", "category": "before", "desc": "노후주택 기존 지붕 철거 작업 — 합판·방수층 해체 중 (리모델링 전)", "size": "900x506" },
+    { "file": "works-remodel-before-02.jpg", "category": "before", "desc": "철거 중인 노후 슁글 지붕과 붉은 벽돌 주택 (리모델링 전)", "size": "900x506" },
+    { "file": "works-remodel-after-01.jpg", "category": "after", "desc": "징크 리모델링 완성 — 브라운 스탠딩심 지붕과 징크 벽체, 동일 주택 (리모델링 후)", "size": "900x600" },
+    { "file": "works-remodel-after-02.jpg", "category": "after", "desc": "징크 리모델링 완성 지붕 클로즈업 — 골감 있는 스탠딩심 결 (리모델링 후)", "size": "900x544" },
+
+    { "file": "works-wall-dugeop-before-01.jpg", "category": "before", "desc": "누수로 부식된 벽체 방수시트·합판 마감 철거 상태 (벽체 보수 전)", "size": "900x1200" },
+    { "file": "works-wall-dugeop-after-01.jpg", "category": "after", "desc": "검정 징크 벽체와 두겁(파라펫 캡) 시공 완성 — 외벽 누수 근본 해결 (벽체 보수 후)", "size": "900x1200" },
+
+    { "file": "works-mokjo-01.jpg", "category": "works", "desc": "신축 목조주택 징크 지붕 시공 현장 전경 (비계 설치 상태)", "size": "900x1200" },
+    { "file": "works-mokjo-02.jpg", "category": "works", "desc": "신축 목조주택 징크 지붕 시공 중 근경", "size": "900x1200" },
+    { "file": "works-mokjo-03.jpg", "category": "works", "desc": "신축 목조주택 현장 전경 — 징크 지붕과 외장 마감 진행 (가로형)", "size": "900x676" },
+
+    { "file": "works-rooftop-01.jpg", "category": "works", "desc": "옥상 징크 지붕 스탠딩심 세로 결 클로즈업 — 정밀 시공 텍스처", "size": "900x856" },
+    { "file": "works-rooftop-02.jpg", "category": "works", "desc": "옥상 지붕 전체 교체 완성 전경 — 그레이 징크 스탠딩심 (가로형)", "size": "900x740" },
+    { "file": "works-rooftop-03.jpg", "category": "works", "desc": "옥상 징크 지붕 모서리·물매 마감 디테일 (가로형)", "size": "900x600" },
+
+    { "file": "works-wall-slant-01.jpg", "category": "works", "desc": "사선 징크 외장 시공 중 — 비계 위 사선 스탠딩심 파사드", "size": "900x1200" },
+    { "file": "works-wall-slant-02.jpg", "category": "works", "desc": "사선 징크 외장 완성 — 다크블루 징크 파사드 전경 (가로형)", "size": "900x676" },
+
+    { "file": "works-wall-01.jpg", "category": "works", "desc": "징크 벽체 시공 사례 — 세로 스탠딩심 외벽 마감", "size": "899x1420" },
+
+    { "file": "works-canopy-01.jpg", "category": "works", "desc": "징크 천장 캐노피 시공 — CRC보드 대체 징크 마감", "size": "900x1200" },
+    { "file": "works-canopy-02.jpg", "category": "works", "desc": "캐노피 징크 천장 시공 근경", "size": "900x1200" },
+    { "file": "works-canopy-03.jpg", "category": "works", "desc": "주택 외관과 캐노피·처마 징크 마감 완성 (가로형, 모던 외관)", "size": "900x676" },
+    { "file": "works-canopy-04.jpg", "category": "works", "desc": "신축 주택 현관 캐노피 시공 사례 1", "size": "900x1200" },
+    { "file": "works-canopy-05.jpg", "category": "works", "desc": "신축 주택 현관 캐노피 시공 사례 2", "size": "900x1200" },
+    { "file": "works-canopy-06.jpg", "category": "works", "desc": "현관 캐노피 완성 디테일", "size": "900x938" },
+
+    { "file": "works-dandok-01.jpg", "category": "works", "desc": "단독주택 징크 시공 전후 비교 합성 이미지 (세로형)", "size": "800x2294" },
+
+    { "file": "works-deotbang-01.png", "category": "works", "desc": "장마철 판넬·기와·강판 지붕 덧방 시공 현장", "size": "900x1200" },
+
+    { "file": "works-gutter-01.jpg", "category": "works", "desc": "빗물받이(홈통) 청소 전 — 흙·낙엽이 가득 막힌 상태", "size": "900x1200" },
+    { "file": "works-gutter-02.jpg", "category": "works", "desc": "빗물받이 청소 후 수거한 흙·낙엽 폐기물 — 점검 완료", "size": "900x1200" },
+
+    { "file": "process-deotbang-01.png", "category": "process", "desc": "덧방 공정 중 응급 방수시트 설치 — 장마철 누수 예방", "size": "900x1200" },
+    { "file": "process-waterproof-01.jpg", "category": "process", "desc": "방수시트 시공 공정 1 — 지붕 기초 방수층 설치", "size": "900x1200" },
+    { "file": "process-waterproof-02.jpg", "category": "process", "desc": "방수시트 시공 공정 2 — 보이지 않는 기초 공정 마감", "size": "900x1200" }
+  ]
+}
