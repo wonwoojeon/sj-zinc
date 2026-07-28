@@ -213,21 +213,20 @@
       });
     });
 
-    // PROCESS 스티키 넘버 교체
+    // PROCESS 스티키 넘버 교체 — 단일 활성 단계만 관리해 번호/강조 동기화 보장
     var bignum = document.getElementById('processBignum');
-    gsap.utils.toArray('.p-step').forEach(function (step) {
+    var pSteps = gsap.utils.toArray('.p-step');
+    function activateProcessStep(step) {
+      pSteps.forEach(function (s) { s.classList.remove('active'); });
+      step.classList.add('active');
+      if (bignum) bignum.textContent = step.getAttribute('data-step');
+    }
+    pSteps.forEach(function (step) {
       ScrollTrigger.create({
         trigger: step,
         start: 'top 55%',
         end: 'bottom 55%',
-        onToggle: function (self) {
-          if (self.isActive) {
-            step.classList.add('active');
-            if (bignum) bignum.textContent = step.getAttribute('data-step');
-          } else {
-            step.classList.remove('active');
-          }
-        }
+        onToggle: function (self) { if (self.isActive) activateProcessStep(step); }
       });
     });
 
