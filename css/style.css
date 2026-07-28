@@ -654,9 +654,10 @@ em { font-style: normal; }
 .p-step {
   display: flex;
   gap: clamp(20px, 3vw, 44px);
-  padding: clamp(32px, 5vh, 56px) 0;
+  padding: clamp(32px, 5vh, 56px) clamp(16px, 2.5vw, 36px);
+  margin-left: calc(clamp(16px, 2.5vw, 36px) * -1);
   border-bottom: 1px solid var(--line);
-  transition: background-color 0.4s var(--ease);
+  transition: background-color 0.4s var(--ease), color 0.4s var(--ease);
 }
 .p-num {
   font-size: 0.85rem;
@@ -678,15 +679,12 @@ em { font-style: normal; }
   color: var(--ink-soft);
   max-width: 52ch;
 }
-.p-step-dark {
+.p-step.active {
   background: var(--dark);
   color: var(--bone);
-  padding-left: clamp(16px, 2.5vw, 36px);
-  padding-right: clamp(16px, 2.5vw, 36px);
-  margin-left: calc(clamp(16px, 2.5vw, 36px) * -1);
 }
-.p-step-dark .p-body p { color: rgba(244, 241, 235, 0.65); }
-.p-step-dark .p-num { color: var(--copper); }
+.p-step.active .p-body p { color: rgba(244, 241, 235, 0.65); }
+.p-step.active .p-num { color: var(--copper); }
 
 /* ============================================================
    7. WHY SJ
